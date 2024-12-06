@@ -1,0 +1,44 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: palevioletred;
+
+}
+.usersContainer {
+padding: 50px;
+}
+.userCardContent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+}
+
+.user-card {
+    background-color: white;
+    border: 5px solid darkblue;
+    padding: 20px;
+    
+}
+h1 {
+    text-align: center;
+}
+#filterForm {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+#filterForm input {
+    padding: 8px;
+    border-color: black;
+}
+
+.btn {
+    padding: 10px ;
+    background-color: darkblue;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
